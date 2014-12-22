@@ -14,6 +14,13 @@ a = artist
 
 artist.color = 'green'
 artist.right(90)
-# ???
-
+for count in range(4):
+    a.fd(100)
+    a.right(90)
+a.left(180)
+a.fd(50)
+a.left(90)
+for count in range(4):
+    a.fd(100)
+    a.right(90)
 artist.check()
